@@ -8,5 +8,5 @@ def home():
     return "Backend funcionando en Railway 🚀"
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Usa el puerto de Railway o 5000 por defecto
+    port = int(os.environ.get("PORT", 8080))  # Usa el puerto que asigna Railway o 8080 por defecto
     app.run(host="0.0.0.0", port=port)
